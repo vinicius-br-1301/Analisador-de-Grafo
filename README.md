@@ -54,6 +54,7 @@ Armazenamento (Lista de Adjacência): É necessário armazenar cada vértice e s
 Espaço: O(V + 2E) ≈ O(V + E)
 Pilha de Recursão (DFS): No pior caso (um grafo que é uma linha longa), a pilha de recursão pode crescer até a profundidade V.
 Espaço Auxiliar: O(V)
+
 6. REQUISITOS DE SISTEMA E FERRAMENTAS
 Linguagem: Java
 Bibliotecas:
@@ -61,6 +62,7 @@ java.util.* (Coleções: List, Map, Set).
 javax.swing.* (Interface Gráfica: JFrame, JPanel, JButton).
 java.awt.* (Desenho e Layouts).
 Paradigma: Orientação a Objetos.
+
 7. CONCLUSÃO
 
 O software funciona satisfatoriamente, implementando a estrutura de dados de grafos e algoritmos de percurso. A complexidade linear O(V + E) garante que a aplicação seja viável para grafos de tamanho moderado, enquanto a interface gráfica facilita a validação visual das estruturas de dados.
